@@ -278,12 +278,12 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--color5);
+  background-color: var(--color0);
   padding: 1.5rem 0;
 }
 
 .footer__inner p {
-  color: var(--color0);
+  color: var(--color5);
   padding: 0 0.625rem;
   font-weight: var(--font-normal);
   font-family: var(--body-font);

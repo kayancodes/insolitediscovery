@@ -22,18 +22,6 @@
 
 /*--------COLOR--------------------------*/   
 
-
-// --color0:#fff;
-// --color1:#eeecec;
-// --color2:#d4d4d4;
-// --color3:#adadad;
-// --color4:#000; //text-color
-// --color5:#2F1817;
-// --colorTheme: #2a292e;
-// --color6:#dadce0;
-// --color7:#202124;
-// --color8:#404040;
-
 --color0:#fff;
 --color1:#efefef;
 --color2:#d4d4d4;
@@ -379,12 +367,12 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:var(--color5);
+    background-color:var(--color0);
     padding: 1.5rem 0;
 }
 
 .footer__inner p{
-    color:var(--color0);
+    color:var(--color5);
     padding: 0 0.625rem;
     font-weight:var(--font-normal);
     font-family: var(--body-font);
