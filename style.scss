@@ -32,17 +32,9 @@
 --color7:#4472c4;
 --color8:#181c35;
 --color9:#8d8d8d;
---color10:#a9d7da;
+--color10:#3554A8;
 --color11:#707070;
---color12:#98c1c4;
---color13:#2c5ab3;
-
---color20:#FFFFFF;
---color21:#FDF9EF;
---color22:#F9FF71;
---color23:#1A8AD0;
---color24:#3554A8;
---color25:#536385;
+--color12:#3554A8;
 
 
 
@@ -112,7 +104,7 @@
 }
 
 .bloclevel1{
-margin-bottom:var(--mb-100);  
+margin-bottom:var(--mb-150);  
 }
 
 .bloclevel2{
@@ -153,7 +145,7 @@ h2{
     font-weight: var(--font-regular);
     margin-bottom: 1rem;
     font-size: var(--h2-font-size);
-    color: var(--color13);
+    color: var(--color10);
     line-height: 2rem;
 }
 
@@ -203,9 +195,6 @@ p, ul{
 
 .paragraphe{
        margin-bottom: 1.7rem;
-}
-.paragraphe_box{
-     margin-bottom: 7rem;
 }
 .paragraphe p{
        margin-bottom: 0rem;
@@ -319,10 +308,6 @@ img {
     width: 100%;
 }
 
-.img_bis{
-margin-bottom: var(--mb-50);
-}
-
 
 //--------- FIN IMAGES----------//
 
@@ -392,7 +377,7 @@ margin-bottom: var(--mb-50);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    // width: 65%;
+    width: 100%;
 }
 .bloctext{
     margin-bottom: 0rem;
@@ -403,10 +388,9 @@ margin-bottom: var(--mb-50);
 }
 
 .bloctext_unit{
-display: flex;
-align-items: flex-end;
-width: 160px;
-height: 150px;
+display: block;
+width: 100%;
+height: auto;
 border:2px solid var(--color4);
 padding: .8rem;
 margin-bottom: .8rem;
@@ -416,31 +400,6 @@ color:var(--color12);
 font-weight: var(--font-regular);
 margin-bottom: .3rem;
 }
-
-.bloctext_unit--01{
-background-color: var(--color20);
-}
-
-.bloctext_unit--02{
-background-color: var(--color21);
-}
-
-.bloctext_unit--03{
-background-color: var(--color22);
-}
-
-.bloctext_unit--04{
-background-color: var(--color23);
-}
-
-.bloctext_unit--05{
-background-color: var(--color24);
-}
-
-.bloctext_unit--06{
-background-color: var(--color25);
-}
-
 
 
 .bloctextpara_unit{
@@ -1273,11 +1232,11 @@ margin-bottom: .7rem;
 
 .bloctext_unit{
 width: 32.5%;
-height: 150px;
+height: auto;
 }
 
 .bloctextcomment_unit{
-width: 190px;    
+width: 49.3%;    
 }
 .bloctextcomment:nth-child(even){
     margin-right: 0rem;
@@ -1335,7 +1294,7 @@ width: 47%;
         width: 80%;
         margin-top: 0rem;
         margin-bottom: 0rem;
-        padding-left: 1rem;
+        padding-left: 5rem;
     }
     .main__body .introduction_button{
         text-align: left;
@@ -1504,8 +1463,8 @@ img {
 
 
 .bloc8020_left{
-    width: 100%;
-    padding-right: 0rem;
+    width: 90%;
+    padding-right: 2rem;
 }
 
 .bloc8020_right{
@@ -1559,11 +1518,6 @@ img {
 
     .footer__inner a{
         font-size: var(--normal-font-size);
-   }
-
-
-   .bloctext_contenaire{
-    width: 700px
    }
 }
 //------------ FIN LG ( > 962px) : Tablets and small desktops ---------//
